@@ -1,0 +1,10 @@
+dn: cn=bTopicDevsAll,ou=groups,{{ LDAP_BASE_DN }}
+changetype: modify
+add: memberuid
+memberuid: cn=bUser3,ou=users,{{ LDAP_BASE_DN }}
+
+dn: cn=bTopicDevsAll,ou=groups,{{ LDAP_BASE_DN }}
+changetype: modify
+add: memberuid
+memberuid: cn=bUser4,ou=users,{{ LDAP_BASE_DN }}
+

@@ -1,0 +1,15 @@
+dn: cn=aUser2,ou=users,{{ LDAP_BASE_DN }}
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: aUser2
+sn: LookingGlass
+givenName: AUSER2
+cn: aUser2
+displayName: AUSER2
+uidNumber: 10031
+gidNumber: 5001
+userPassword: aUser2
+gecos: aUser2
+loginShell: /bin/bash
+homeDirectory: /home/aUser2

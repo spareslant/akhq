@@ -1,0 +1,6 @@
+dn: cn=bTopicDevsAll,ou=groups,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: posixGroup
+cn: bTopicDevsAll
+gidNumber: 5004
+
